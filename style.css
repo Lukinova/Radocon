@@ -2,12 +2,17 @@
 	font-family: 'Raleway';
     src: url("fonts/Raleway/Raleway-Regular.ttf");
 }
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    text-align: left;
+    }
 					/*ШАПКА*/
  header{
 	background-image: url('img/header.jpg');
 	background-repeat: no-repeat !important;
 	width:100%;
-	height:900px;
+	height:800px;
 	background-position-x:center;
 	top: 0;
 	z-index: -55;
@@ -15,16 +20,19 @@
 }
 .blur{
 	width: 100%;
-	height: 900px;
+	height: 663px;
 	backdrop-filter:brightness(45%);
 	box-shadow: 0 0 13px #000;
+	position: absolute;
+	display: flex;
+	align-items: center;
 }
 
 .header_menu{
 	display: flex;
 	justify-content: center;
-	backdrop-filter: blur(3px) brightness(45%);
-	height: 200px;
+	backdrop-filter: blur(1px) brightness(45%);
+	height: 138px;
 	align-items: center;
 }
 
@@ -46,10 +54,17 @@ ul{
 
 li{
 	list-style-type: none;
-	font-family:'Raleway';
 	font-size: 18px;
 	color: #6caed4;
 	margin:25px;
-	font-weight:bold;
 
+}
+
+.headline{
+	z-index:55;
+}
+
+h1, h2{
+	color: #6caed4;
+	margin-bottom: 25px !important;
 }
