@@ -30,8 +30,8 @@
 
 .header_menu{
 	display: flex;
-	justify-content: center;
-	backdrop-filter: blur(1px) brightness(45%);
+	justify-content:space-evenly;
+	backdrop-filter: blur(2px) brightness(30%);
 	height: 138px;
 	align-items: center;
 }
@@ -43,7 +43,7 @@
 img.logo_img{
 	width: 150px;
 	height: 100px;
-	
+	filter: hue-rotate(15deg) brightness(40);
 }
 
 ul{
@@ -55,7 +55,7 @@ ul{
 li{
 	list-style-type: none;
 	font-size: 18px;
-	color: #6caed4;
+	color: #ffff;
 	margin:25px;
 
 }
@@ -65,6 +65,66 @@ li{
 }
 
 h1, h2{
-	color: #6caed4;
+	color: #ffff;
 	margin-bottom: 25px !important;
+}
+
+.headline_item{
+ border-left: 7px solid #357faa !important;
+ padding-left: 26px;
+
+}
+.headline_item_button{
+	padding-left: 26px;
+}
+
+.btn-primary{
+	background-color: #357faa !important;
+	border-color: #357faa !important;
+
+}
+
+.btn-primary::hover{
+	background-color: #367faa !important;
+	border-color: #357faa !important;
+
+}
+
+									/* 	НАПРАВЛЕНИЕ РАБОТЫ*/
+
+h3{
+	border-left: 7px solid #357faa !important;
+	margin-top:120px !important;
+  padding-left: 26px;
+  font-size: 35px !important;
+}
+
+.areals_of_work{
+		height: 500px;
+}
+
+.sectors_item .fa-atom-alt , .fa-microscope , .fa-flask-potion , .fa-temperature-high , .fa-starship-freighter , .fa-chart-network , .fa-chart-scatter{
+	color: #2b5fff;
+	font-size: 50px;
+}
+.sectors_item .fa-atom-alt:after{
+	color:blue !important;
+}
+
+.sectors_item , .sectors_item_self {
+	width: 300px;
+	text-align: center;
+}
+
+.industrials_sectors{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-row-gap: 50px;
+}
+.sectors_item_self{
+	grid-column-start: 2;
+}
+
+h5{
+	color: #125bb9;
 }
