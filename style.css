@@ -15,7 +15,6 @@
 	height:800px;
 	background-position-x:center;
 	top: 0;
-	z-index: -55;
 
 }
 .blur{
@@ -99,10 +98,6 @@ h3{
   font-size: 35px !important;
 }
 
-.areals_of_work{
-		height: 500px;
-}
-
 .sectors_item .fa-atom-alt , .fa-microscope , .fa-flask-potion , .fa-temperature-high , .fa-starship-freighter , .fa-chart-network , .fa-chart-scatter{
 	color: #2b5fff;
 	font-size: 50px;
@@ -120,6 +115,7 @@ h3{
 	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-row-gap: 50px;
+	margin-bottom: 100px;
 }
 .sectors_item_self{
 	grid-column-start: 2;
@@ -127,4 +123,45 @@ h3{
 
 h5{
 	color: #125bb9;
+}
+
+						/*ОБОРУДОВАНИЕ*/
+
+.equipment{
+	height: 800px;
+}
+
+#MiscellaneousEquipment{
+	height: 500px;
+	background-color:#d7d6ef;
+	text-align: center;
+  display: grid;
+  align-items: center;
+  overflow: hidden;
+}
+.carousel-item > .fa-microscope{
+		font-size: 150px;
+	text-align:center;
+	color: #2b5fff;
+
+}
+.fa-atom-alt{
+	font-size: 150px;
+	text-align:center;
+	color: #2b5fff;
+}
+
+.carousel-inner {
+	height: 500px;
+  align-items: center;
+  display: flex;
+}
+
+.carousel-item img.d-block.w-100 {
+  object-fit: cover;
+  object-position: center;
+}
+
+.sectors_item.active .fa-atom-alt {
+	font-size: 150px;
 }
