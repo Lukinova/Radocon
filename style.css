@@ -96,6 +96,7 @@ h3{
 	margin-top:120px !important;
   padding-left: 26px;
   font-size: 35px !important;
+  margin-bottom: 50px !important;
 }
 
 .sectors_item .fa-atom-alt , .fa-microscope , .fa-flask-potion , .fa-temperature-high , .fa-starship-freighter , .fa-chart-network , .fa-chart-scatter{
@@ -199,7 +200,7 @@ h6{
  }
 
  .shadow{
- 	backdrop-filter:brightness(40%);
+ 	backdrop-filter:brightness(25%);
  	height:100%;
  	display: flex;
  	align-items: center;
@@ -223,9 +224,45 @@ h6{
 
  .headline_item{
  	width: 80%;
- 	background-attachment: fixed;
+	} 
 
- } 
+										/*ПАРТНЕРЫ */
+
+.partners{
+	width: 100%;
+	height: auto;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-row: 20px;
+	grid-gap: 50px;
+	margin-bottom: 100px;
+}
+.partners_item img{
+	width: 230px;
+	height: 100px;
+}
+
+.partners_item_self{
+	grid-column-start: 2 ;
+}
+
+.partners_item_self  img{
+		width: 230px;
+	height: 100px;
+}
+.partners_item_self1 img{
+		width: 230px;
+	height: 100px;	
+}
+
+p{
+	margin-bottom: 50px !important;
+}
 
 
-
+								/*ФУТЕР*/
+.footer{
+	background: #0000;
+	height: 300px;
+	background-color: #172040;
+}
